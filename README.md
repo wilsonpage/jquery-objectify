@@ -1,8 +1,8 @@
 ###jquery-objectify.js
 
-A small jquery plugin for converting form contents into a javascript object. 
+A small jquery plugin for converting form contents into a javascript object.
 
-
+**Usage:**
 
 	<form>
 		<input type='text' name='name'>
@@ -10,5 +10,6 @@ A small jquery plugin for converting form contents into a javascript object.
 		<input type='text' name='contact.email'>
 	</form>
  
-	formObject = $('form').objectify();
+	var formObject = $('form').objectify();
+	
 	// { name: <value>, contact: { tel: <value>, email: <value> }}
