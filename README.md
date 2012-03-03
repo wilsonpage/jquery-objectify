@@ -11,4 +11,5 @@ A small jquery plugin for converting form contents into a javascript object.
 	</form>
  
 	var formObject = $('form').objectify();
+	
 	// { name: <value>, contact: { tel: <value>, email: <value> }}
